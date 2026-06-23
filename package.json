@@ -1,0 +1,29 @@
+{
+  "name": "arch-lens",
+  "version": "1.0.0",
+  "description": "DoDAF-inspired security architecture generator. Ingests use cases and personas, outputs OV-2, OV-5b, OV-6c, and SV-6 architectural views.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext ts,tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.13.0",
+    "@typescript-eslint/parser": "^7.13.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.3.1"
+  }
+}
