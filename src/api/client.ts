@@ -21,7 +21,7 @@ export async function callClaude(options: APICallOptions): Promise<string> {
     },
     body: JSON.stringify({
       model: MODEL,
-      max_tokens: 8000,
+      max_tokens: 16000,
       system: systemPrompt,
       messages: [{ role: "user", content: userPrompt }],
     }),

@@ -18,6 +18,32 @@ ArchLens applies a formal decomposition methodology (based on DoDAF — Departme
 
 **Planned future views:** CV-4, StdV-1
 
+## Screenshots
+
+### OV-2 — Persona Relationships
+![OV-2 Persona Relationships](screenshots/ov2.png)
+
+### OV-5b — Activity Model
+![OV-5b Activity Model](screenshots/ov5b.png)
+
+### OV-6c — Event Trace (Swimlane)
+![OV-6c Event Trace Swimlane](screenshots/ov6cSwimlane.png)
+
+### OV-6c — Event Trace (Detail Table)
+![OV-6c Event Trace Detail](screenshots/ov6cTable.png)
+
+### SV-6 — Data Exchange Matrix
+![SV-6 Data Exchange Matrix](screenshots/sv6.png)
+
+### SV-1 — Systems Interface Description
+![SV-1 Systems Interface Description](screenshots/sv1.png)
+
+### SV-4 — Systems Functionality Description
+![SV-4 Systems Functionality Description](screenshots/sv4.png)
+
+### DIV-2 — Logical Data Model
+![DIV-2 Logical Data Model](screenshots/div2.png)
+
 ## Decomposition Methodology
 
 Every use case is decomposed through the following instruction pipeline (encoded as Claude system prompts):
@@ -46,7 +72,7 @@ Every use case is decomposed through the following instruction pipeline (encoded
 
 ```bash
 git clone https://github.com/Lamurrz/arch-lens.git
-cd arch-lens/soc-architect
+cd arch-lens
 npm install
 npm run dev
 ```
@@ -99,6 +125,7 @@ soc-architect/
 │   ├── store/
 │   │   └── architectureStore.ts  # Zustand state (persisted to localStorage)
 │   └── App.tsx
+├── screenshots/               # Generated view screenshots
 ├── index.html
 ├── package.json
 ├── tsconfig.json
